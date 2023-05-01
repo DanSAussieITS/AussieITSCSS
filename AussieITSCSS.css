@@ -33,13 +33,13 @@ h1.main-header{
 	font-size: 38pt;
 	font-weight: 500;
 	margin-bottom:0;
-}
-h1.main-header > sup{
-	font-size: 75%;
-	position: relative;
-	line-height: 0px;
-	top: .2rem;
-	left: .2rem;
+	}
+	h1.main-header > sup{
+		font-size: 75%;
+		position: relative;
+		line-height: 0px;
+		top: .2rem;
+		left: .2rem;
 }
 h2.sub-header{
 	font-weight: 500;
@@ -48,15 +48,15 @@ h2.sub-header{
 table.lined-table{
 	margin-top: 30px;
 	border-collapse: collapse;
-}
-table.lined-table > tbody > tr{
-	border-style: solid none;
-	border-width: 2px;
-	border-color: #000258;
-	border-collapse: collapse;
 	}
-	table.lined-table > tbody > tr > td{
-		padding-top: 17px;
+	table.lined-table > tbody > tr{
+		border-style: solid none;
+		border-width: 2px;
+		border-color: #000258;
+		border-collapse: collapse;
+		}
+		table.lined-table > tbody > tr > td{
+			padding-top: 17px;
 }
 hr.line{
 	height:1px;
