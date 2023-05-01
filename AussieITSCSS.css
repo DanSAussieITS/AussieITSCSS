@@ -1,0 +1,82 @@
+html{
+	font-family: Arial;
+  font-size: 14pt;
+}
+body{
+  margin: 0;
+  line-height: 1.5;
+}
+p{
+	text-align: center; 
+}
+h1, h2{
+	margin: auto;
+  margin-bottom: .5rem;
+  display: table;
+  text-align: center;
+}
+.container{
+ 	width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 960px;
+}
+.title-box{
+  padding: 40px 0 40px 0;
+  background:#283055;
+  color:#FFFFFF;
+}
+h1.main-header{
+  align-items: baseline;
+  font-size: 38pt;
+  font-weight: 500;
+  margin-bottom:0;
+}
+h1.main-header > sup{
+	font-size: 75%;
+  position: relative;
+  line-height: 0px;
+  top: -1rem;
+}
+h2.sub-header{
+  font-weight: 500;
+  font-size: 2rem;
+}
+table.lined-table{
+  margin-top: 30px;
+	border-collapse: collapse;
+}
+table.lined-table > tbody > tr{
+	border-style: solid none;
+	border-width: 2px;
+  border-color: #000258;
+  border-collapse: collapse;
+	}
+	table.lined-table > tbody > tr > td{
+		padding-top: 17px;
+}
+hr.line{
+	height:1px;
+  width:40%;
+  background:#283055;
+  border-top-width: 2px;
+  border-style: none;
+  border-top-style: solid;
+  font-weight: 400;
+}
+p.taho{
+  font-family: Tahoma;
+  font-weight: bold;
+}
+ul.bulleted-list{
+	margin: 30px 10%;
+  font-size: 18pt;
+  font-weight: 600;
+  color: rgb(39, 60, 44);
+  line-height: 2;
+}
+*, ::after, ::before{
+	box-sizing: border-box;
+}
