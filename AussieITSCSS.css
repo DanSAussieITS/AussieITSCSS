@@ -38,7 +38,7 @@ h1.main-header > sup{
 	font-size: 75%;
   position: relative;
   line-height: 0px;
-  top: -1rem;
+  top: -0.5rem;
 }
 h2.sub-header{
   font-weight: 500;
