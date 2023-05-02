@@ -62,7 +62,7 @@ hr.line{
 	height:1px;
 	width:40%;
 	background:#283055;
-	border-top-width: 2px;
+	border-top-width: .2rem;
 	border-style: none;
 	border-top-style: solid;
 	font-weight: 400;
