@@ -1,3 +1,11 @@
+html{
+	font-family: Arial;
+	font-size: 16pt;
+}
+body{
+	margin: 0;
+	line-height: 1.5;
+}
 #pseudo-body{
 	font-family: Arial;
 	font-size: 16pt;
