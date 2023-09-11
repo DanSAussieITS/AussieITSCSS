@@ -84,6 +84,13 @@ ul.bulleted-list{
 	color: rgb(39, 60, 44);
 	line-height: 2;
 }
+.desc-list{
+	margin: 30px 10%;
+	font-size: 18pt;
+	font-weight: 600;
+	color: rgb(39, 60, 44);
+	line-height: 2;
+}
 *, ::after, ::before{
 	box-sizing: border-box;
 }
