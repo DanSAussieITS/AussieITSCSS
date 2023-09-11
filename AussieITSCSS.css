@@ -91,6 +91,13 @@ ul.bulleted-list{
 	font-weight: 600;
 	color: rgb(39, 60, 44);
 	line-height: 2;
+	}
+	.desc-list > dt{
+		padding-top: 10px;
+	}
+	.desc-list > dd{
+		font-size: 16pt;
+		line-height: 1;
 }
 *, ::after, ::before{
 	box-sizing: border-box;
