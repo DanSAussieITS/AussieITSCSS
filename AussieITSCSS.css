@@ -77,6 +77,7 @@ p.taho{
 	font-family: Tahoma;
 	font-weight: bold;
 }
+/* Old listings use ul.bulleted-list, will break if removed */
 ul.bulleted-list{
 	margin: 30px 10%;
 	font-size: 18pt;
