@@ -90,16 +90,16 @@ ul.bulleted-list{
 	color: rgb(39, 60, 44);
 	line-height: 2;
 	}
-	.desc-list > dt{
+	.part-list > dt{
 		padding-top: 10px;
 	}
-	.desc-list > dd{
+	.part-list > dd{
 		font-size: 16pt;
 		line-height: 1;
 		padding-bottom: 5px;
 		margin-inline-start: 20px;
 	}
-	.desc-list > ul{
+	.part-list > ul{
 		margin: 5px 0
 }
 *, ::after, ::before{
