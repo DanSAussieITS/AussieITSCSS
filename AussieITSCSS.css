@@ -100,7 +100,7 @@ ul.bulleted-list{
 		margin-inline-start: 20px;
 	}
 	.part-list > ul{
-		margin: 5px 0
+		margin: 5px 0;
 }
 *, ::after, ::before{
 	box-sizing: border-box;
