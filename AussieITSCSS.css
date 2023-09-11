@@ -98,6 +98,7 @@ ul.bulleted-list{
 	.desc-list > dd{
 		font-size: 16pt;
 		line-height: 1;
+		padding-bottom: 5px;
 }
 *, ::after, ::before{
 	box-sizing: border-box;
