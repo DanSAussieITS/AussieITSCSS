@@ -99,7 +99,7 @@ ul.bulleted-list{
 		padding-bottom: 5px;
 		margin-inline-start: 20px;
 	}
-	.part-list > ul{
+	.part-list > dd > ul{
 		margin: 5px 0 0;
 		margin-block-start: 5px;
 }
