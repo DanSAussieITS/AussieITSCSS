@@ -98,10 +98,13 @@ ul.bulleted-list{
 		line-height: 1;
 		padding-bottom: 5px;
 		margin-inline-start: 20px;
-	}
-	.part-list > dd > ul{
-		margin: 5px 0 0;
-		margin-block-start: 5px;
+		}
+		.part-list > dd > ul{
+			margin: 5px 0 0;
+			margin-block-start: 5px;
+			}
+			.part-list > dd > ul > li{
+				margin-bottom: 5px;
 }
 *, ::after, ::before{
 	box-sizing: border-box;
