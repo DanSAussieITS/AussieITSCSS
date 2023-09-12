@@ -36,8 +36,8 @@ h1, h2{
 }
 h1.main-header{
 	align-items: baseline;
-	font-size: 38pt;
-	font-weight: 500;
+	font-size: 2.375rem;
+	font-weight: 100;
 	margin-bottom:0;
 	}
 	h1.main-header > sup{
@@ -80,7 +80,7 @@ p.taho{
 }
 ul.bulleted-list{
 	margin: 30px 10%;
-	font-size: 18pt;
+	font-size: 1.125rem;
 	font-weight: 600;
 	color: rgb(39, 60, 44);
 	line-height: 2;
@@ -89,14 +89,14 @@ ul.bulleted-list{
 	column-count: 2;
 	max-width: 100%;
 }
-@media screen and (max-width: 992px) {
-.PartList {
-	column-count: 1;
-}
+@media screen and (max-width: 992px){
+	.PartList{
+		column-count: 1;
+	}
 }
 .PartList div{
 	overflow-wrap: break-word;
-	font-size: 18pt;
+	font-size: 1.125rem;
 	font-weight: 600;
 	color: rgb(39, 60, 44);
 	line-height: 1.5;
