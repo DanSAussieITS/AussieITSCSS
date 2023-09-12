@@ -100,6 +100,7 @@ ul.bulleted-list{
 }
 .PartList div{
 	margin-bottom: 10px;
+	display: inline-block;
 }
 .PartList dt{
 	font-size: 1.125rem;
