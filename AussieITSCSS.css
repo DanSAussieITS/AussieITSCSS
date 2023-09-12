@@ -88,6 +88,10 @@ ul.bulleted-list{
 .PartList{
 	column-count: 2;
 	max-width: 100%;
+	overflow-wrap: break-word;
+	font-weight: 600;
+	color: rgb(39, 60, 44);
+	line-height: 1.5;
 }
 @media screen and (max-width: 992px){
 	.PartList{
@@ -95,10 +99,6 @@ ul.bulleted-list{
 	}
 }
 .PartList div{
-	overflow-wrap: break-word;
-	font-weight: 600;
-	color: rgb(39, 60, 44);
-	line-height: 1.5;
 	margin-bottom: 10px;
 }
 .PartList dt{
