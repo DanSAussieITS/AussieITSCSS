@@ -96,11 +96,13 @@ ul.bulleted-list{
 }
 .PartList div{
 	overflow-wrap: break-word;
-	font-size: 1.125rem;
 	font-weight: 600;
 	color: rgb(39, 60, 44);
 	line-height: 1.5;
 	margin-bottom: 10px;
+}
+.PartList dt{
+	font-size: 1.125rem;
 }
 .PartList dd{
 	display: list-item;
