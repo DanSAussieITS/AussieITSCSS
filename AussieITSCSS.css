@@ -85,29 +85,6 @@ ul.bulleted-list{
 	line-height: 2;
 }
 
-/* https://stackoverflow.com/questions/48727589/how-can-i-split-a-list-of-divs-into-two-columns-if-theres-enough-space */
-.columnWrapper div {
-  display: inline-block;
-  width: 100%;
-}
-.columnWrapper {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  -webkit-column-gap: 0.5rem;
-  -moz-column-gap: 0.5rem;
-  column-gap: 0.5rem;
-  width: 20%;
-  margin: 0 auto;
-}
-@media screen and (max-width: 1000px) {
-  .columnWrapper {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-  }
-}
-
 *, ::after, ::before{
 	box-sizing: border-box;
 }
