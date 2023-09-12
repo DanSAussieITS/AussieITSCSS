@@ -76,6 +76,7 @@ hr.line{
 p.taho{
 	font-family: Tahoma;
 	font-weight: bold;
+	margin: 0 5%;
 }
 ul.bulleted-list{
 	margin: 30px 10%;
@@ -84,7 +85,30 @@ ul.bulleted-list{
 	color: rgb(39, 60, 44);
 	line-height: 2;
 }
-
+.PartList{
+	column-count: 2;
+}
+@media screen and (max-width: 992px) {
+.PartList {
+	column-count: 1;
+}
+}
+.PartList div{
+	overflow-wrap: break-word;
+	font-size: 18pt;
+	font-weight: 600;
+	color: rgb(39, 60, 44);
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+.PartList dd{
+	display: list-item;
+	margin-left: 50px;
+}
+.center{
+	display: flex; 
+	justify-content: center;
+}
 *, ::after, ::before{
 	box-sizing: border-box;
 }
