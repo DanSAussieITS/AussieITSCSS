@@ -87,6 +87,7 @@ ul.bulleted-list{
 }
 .PartList{
 	column-count: 2;
+	max-width: 100%;
 }
 @media screen and (max-width: 992px) {
 .PartList {
