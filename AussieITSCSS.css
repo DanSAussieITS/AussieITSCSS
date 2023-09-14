@@ -97,6 +97,12 @@ ul.bulleted-list{
 	.PartList{
 		column-count: 1;
 	}
+	.PartList dt{
+		font-size: 1rem;
+	}
+	.PartList dd{
+		font-size: .875rem;
+	}
 }
 .PartList div{
 	margin-bottom: 10px;
