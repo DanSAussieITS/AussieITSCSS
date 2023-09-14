@@ -93,17 +93,6 @@ ul.bulleted-list{
 	color: rgb(39, 60, 44);
 	line-height: 1.5;
 }
-@media screen and (max-width: 992px){
-	.PartList{
-		column-count: 1;
-	}
-	.PartList dt{
-		font-size: 0.875rem;
-	}
-	.PartList dd{
-		font-size: 0.75rem;
-	}
-}
 .PartList div{
 	margin-bottom: 10px;
 	break-inside: avoid-column;
@@ -115,6 +104,17 @@ ul.bulleted-list{
 	display: list-item;
 	margin-left: 50px;
 	font-size: 1rem;
+}
+@media screen and (max-width: 992px){
+	.PartList{
+		column-count: 1;
+	}
+	.PartList dt{
+		font-size: 0.875rem;
+	}
+	.PartList dd{
+		font-size: 0.75rem;
+	}
 }
 .center{
 	display: flex; 
