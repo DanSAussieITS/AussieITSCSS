@@ -23,12 +23,12 @@ h1, h2{
  	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 1.5%;
+	padding-left: 1.5%;
 	max-width: 960px;
 }
 .title-box{
-	padding: 40px 15px;
+	padding: 4% 1.5%;
 	background:#283055;
 	color:#FFFFFF;
 }
@@ -50,20 +50,20 @@ h2.sub-header{
 	font-size: 2rem;
 }
 table.lined-table{
-	margin-top: 30px;
+	margin-top: 3%;
 	border-collapse: collapse;
 	}
 	table.lined-table > tbody > tr{
 		border-style: solid none;
-		border-width: 2px;
+		border-width: 2%;
 		border-color: #000258;
 		border-collapse: collapse;
 		}
 		table.lined-table > tbody > tr > td{
-			padding-top: 17px;
+			padding-top: 1.7%;
 }
 hr.line{
-	height:1px;
+	height:0.1%;
 	width:40%;
 	background:#283055;
 	border-top-width: .2rem;
@@ -86,7 +86,7 @@ hr.line{
 	font-size: 0.625rem;
 }
 ul.bulleted-list{
-	margin: 30px 10%;
+	margin: 3% 10%;
 	font-size: 1.125rem;
 	font-weight: 600;
 	color: rgb(39, 60, 44);
@@ -100,12 +100,12 @@ ul.bulleted-list{
 	line-height: 1.5;
 }
 .PartList div{
-	margin-bottom: 10px;
+	margin-bottom: 1%;
 	break-inside: avoid-column;
 }
 .PartList dd{
 	display: list-item;
-	margin-left: 50px;
+	margin-left: 5%;
 }
 @media screen and (max-width: 992px){
 	.PartList{
