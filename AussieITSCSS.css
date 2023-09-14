@@ -71,12 +71,18 @@ hr.line{
 	border-top-style: solid;
 	font-weight: 400;
 }
-p.taho{
+.taho{
 	font-family: Tahoma;
 	font-weight: bold;
 	margin: 0 5%;
 }
-#disclaimer{
+.sfont{
+	font-size: 0.875rem;
+}
+.ssfont{
+	font-size: 0.75rem;
+}
+.sssfont{
 	font-size: 0.625rem;
 }
 ul.bulleted-list{
