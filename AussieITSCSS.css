@@ -1,6 +1,5 @@
 html{
 	font-family: Arial;
-	font-size: 16pt;
 }
 body{
 	margin: 0;
@@ -105,10 +104,13 @@ ul.bulleted-list{
 		column-count: 1;
 	}
 	.PartList dt{
-		font-size: 0.875rem;
+		font-size: 1rem;
 	}
 	.PartList dd{
-		font-size: 0.75rem;
+		font-size: 0.875rem;
+	}
+	html{
+		font-size: 14pt;
 	}
 }
 @media screen and (min-width: 993px){
@@ -120,6 +122,9 @@ ul.bulleted-list{
 	}
 	.PartList dd{
 		font-size: 1rem;
+	}
+	html{
+		font-size: 16pt;
 	}
 }
 .center{
