@@ -76,6 +76,9 @@ p.taho{
 	font-weight: bold;
 	margin: 0 5%;
 }
+#disclaimer{
+	font-size: 0.625rem;
+}
 ul.bulleted-list{
 	margin: 30px 10%;
 	font-size: 1.125rem;
