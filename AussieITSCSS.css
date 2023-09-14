@@ -86,7 +86,6 @@ ul.bulleted-list{
 	line-height: 2;
 }
 .PartList{
-	column-count: 2;
 	max-width: 100%;
 	overflow-wrap: break-word;
 	font-weight: 600;
@@ -97,13 +96,9 @@ ul.bulleted-list{
 	margin-bottom: 10px;
 	break-inside: avoid-column;
 }
-.PartList dt{
-	font-size: 1.125rem;
-}
 .PartList dd{
 	display: list-item;
 	margin-left: 50px;
-	font-size: 1rem;
 }
 @media screen and (max-width: 992px){
 	.PartList{
@@ -114,6 +109,17 @@ ul.bulleted-list{
 	}
 	.PartList dd{
 		font-size: 0.75rem;
+	}
+}
+@media screen and (min-width: 993px){
+	.PartList{
+		column-count: 2;
+	}
+	.PartList dt{
+		font-size: 1.125rem;
+	}
+	.PartList dd{
+		font-size: 1rem;
 	}
 }
 .center{
