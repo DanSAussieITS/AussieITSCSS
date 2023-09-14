@@ -7,7 +7,6 @@ body{
 }
 #pseudo-body{
 	font-family: Arial;
-	font-size: 16pt;
 	margin: 0;
 	line-height: 1.5;
 }
@@ -109,7 +108,7 @@ ul.bulleted-list{
 	.PartList dd{
 		font-size: 0.875rem;
 	}
-	html{
+	html,#pseudo-body{
 		font-size: 14pt;
 	}
 }
@@ -123,7 +122,7 @@ ul.bulleted-list{
 	.PartList dd{
 		font-size: 1rem;
 	}
-	html{
+	html,#pseudo-body{
 		font-size: 16pt;
 	}
 }
