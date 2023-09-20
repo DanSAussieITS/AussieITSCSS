@@ -19,6 +19,9 @@ h1, h2{
 	display: table;
 	text-align: center;
 }
+.detail{
+	border-bottom: 2px dotted;
+}
 .container{
  	width: 100%;
 	margin-right: auto;
