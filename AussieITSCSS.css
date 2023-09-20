@@ -1,12 +1,12 @@
-html{
+html, #pseudo-body{
 	font-family: Arial;
+	color: rgb(39, 60, 44);
 }
 body{
 	margin: 0;
 	line-height: 1.5;
 }
 #pseudo-body{
-	font-family: Arial;
 	margin: 0;
 	line-height: 1.5;
 }
@@ -102,7 +102,6 @@ ul.bulleted-list{
 	margin: 3% 10%;
 	font-size: 1.125rem;
 	font-weight: 600;
-	color: rgb(39, 60, 44);
 	line-height: 1.5;
 	overflow-wrap: break-word;
 }
@@ -110,7 +109,6 @@ ul.bulleted-list{
 	max-width: 100%;
 	overflow-wrap: break-word;
 	font-weight: 600;
-	color: rgb(39, 60, 44);
 	line-height: 1.5;
 }
 .PartList div{
