@@ -42,7 +42,7 @@ h1, h2{
 	align-items: center;
 	text-align: center;
 	}
-	#disclaimer span{
+	#disclaimer > span{
 		margin-bottom: 20px;
 }
 h1.main-header{
