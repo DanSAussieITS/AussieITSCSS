@@ -35,6 +35,12 @@ h1, h2{
 	background:#283055;
 	color:#FFFFFF;
 }
+#description{
+	margin: 0 10%;
+	}
+	#description > span{
+		margin-bottom: 20px;
+}
 #disclaimer{
 	padding-top: 30px;
 	display: flex;
