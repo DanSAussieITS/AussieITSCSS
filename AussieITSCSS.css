@@ -22,10 +22,10 @@ h1, h2{
 #aboutUsButton{
 	z-index: 9001;
 	position: fixed;
-	top: 1px;
-	left: -70px;
+	top: 0;
+	left: 0;
 	padding: 2px 6px;
-	min-width: 100px;
+	width: 34px;
 	font-size: .8rem;
 	font-weight: 600;
 	color: #273c2c;
@@ -54,10 +54,11 @@ h1, h2{
 	transition: ease-in-out .5s;
 	left: 30px;
 	top: 10px;
+    	width: 100px;
 }
 @keyframes click{
-	from{background-color: #dcdcdc;}
-	to{background-color: #b4b4b4;}
+	from{background-color: #dcdcdc; width: 100px;}
+	to{background-color: #b4b4b4; width: 100px;}
 }
 #aboutUsButton:focus ~ #aboutUsContent{
 	top: 13px;
