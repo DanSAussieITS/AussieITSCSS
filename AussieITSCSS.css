@@ -34,6 +34,7 @@ h1, h2{
 	border-color: #273c2c;
 	transition: ease-in-out .5s;
 	min-height: 34px;
+	user-select: none;
 }
 #aboutUsButton:hover{
 	background-color: #dcdcdc;
