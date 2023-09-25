@@ -22,8 +22,8 @@ h1, h2{
 #aboutUsButton{
 	z-index: 9001;
 	position: fixed;
-	top: 0;
-	left: 0;
+	top: 1px;
+	left: 1px;
 	padding: 2px 6px;
 	width: 34px;
 	font-size: .8rem;
