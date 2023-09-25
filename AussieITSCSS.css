@@ -35,6 +35,12 @@ h1, h2{
 	transition: ease-in-out .5s;
 	min-height: 34px;
 	user-select: none;
+	-webkit-touch-callout: none;
+    	-webkit-user-select: none;
+    	-khtml-user-select: none;
+    	-moz-user-select: none;
+    	-ms-user-select: none;
+    	-o-user-select: none;
 }
 #aboutUsButton:hover{
 	background-color: #dcdcdc;
