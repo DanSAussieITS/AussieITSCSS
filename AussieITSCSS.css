@@ -50,8 +50,7 @@ h1, h2{
 }
 #aboutUsButton:focus{
 	animation-name: click;
-	animation-duration: .1s;
-	transition: ease-in-out .5s;
+	animation-duration: .5s;
 	left: 30px;
 	top: 10px;
     	width: 100px;
