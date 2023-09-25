@@ -57,7 +57,7 @@ h1, h2{
     	width: 100px;
 }
 @keyframes click{
-	from{background-color: #dcdcdc; width: 100px; left: 1px; top: 1px;}
+	from{background-color: #dcdcdc; width: 75px; left: 1px; top: 1px;}
 	to{background-color: #b4b4b4; width: 100px; left: 30px; top: 10px;}
 }
 #aboutUsButton:focus ~ #aboutUsContent{
